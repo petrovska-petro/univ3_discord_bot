@@ -8,7 +8,6 @@ from pool_price_info import get_pool_btc_tick
 from dotenv import dotenv_values
 
 config = dotenv_values(".env")
-print(config)
 
 bot = commands.Bot(command_prefix=".")
 token = config["BOT_TOKEN"]
