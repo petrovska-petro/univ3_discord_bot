@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.8
 
 ADD src/discord_bot.py /
 ARG ALCHEMYAPI_TOKEN
