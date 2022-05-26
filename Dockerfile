@@ -24,4 +24,4 @@ RUN apt-get install libtiff5>=4.2.0-1+deb11u1 -y
 RUN apt-get install zlib1g>=1:1.2.11.dfsg-2+deb11u1 -y
 RUN apt-get install git -y
 
-RUN pip install -r requirements.txt
+RUN pip install discord discord.py python-dotenv web3
